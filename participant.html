@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Participants | CoAB Hack</title>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="Cache-control" content="public">
+
+    <link rel="icon" href="images/logo.png" type="image/png" />
+    <link rel="shortcut icon" href="images/logo.png" type="image/png" />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
+    </script>
+    <script>
+        $(document).ready(function () {
+            $("footer").load("./components/footer.html");
+            $("header").load("./components/navbar.html");
+        });
+    </script>
+
+    <!--Boostrap Requirements-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+
+    <meta name=“google-site-verification” content=“BVA1NKpsy9IenrjkPDUVV9naJOgnlX8MpPhV5wT_c0w” />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
+        integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link rel="stylesheet" href="ph-styles.css">
+    <link rel="stylesheet" href="loginstyle.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
+</head>
+
+<body class='container-fluid bg-dark' data-aos="fade-in"
+                    data-aos-easing="ease-in-back"
+                    data-aos-delay="500"
+                    data-aos-offset="0">
+    <header class='row'>
+    </header>
+
+    <main class='row d-lg-flex justify-content-center'>
+        <h1 class='text-center text-uppercase col-lg-12 bg-dark p-2 m-0 text-white'>REGISTRATION</h1>
+        <div id='decoration1' class='d-lg-none'>
+        </div>
+        <div id='decoration1-desktop' class='d-none d-lg-block'>
+        </div>
+        <div class='text-left col-12 col-md-9'>
+            <h2>Order Delivery Details</h2><br>
+                <br>
+                Fields marked with an <font color="red">*</font> are required
+                <br><br>
+            <div class='row d-flex justify-content-around'>
+            <form action="choose.htm">
+            <div id="container1">
+            <p style="font-size: 25px; color: white; font-family: Proxima Nova;">Basic Information</font><br>
+            <div id="container2">
+                <font color="white">First Name <font color="red">*</font></font><br>
+                <input type="text" placeholder="FIrst Name" size="45" name="name" required><br><br>
+
+                <font color="white">Last Name <font color="red">*</font></font><br>
+                <input type="text" placeholder="Last Name" size="45" name="name" required><br><br>
+
+                <font color="white">
+                <label for="gender">Order <font color="red">*</font></label>
+                <select id="gender" style="width: 100%;
+                                            padding: 12px;
+                                            border: 1px solid #ccc;
+                                            border-radius: 4px;
+                                            box-sizing: border-box;
+                                            margin-top: 6px;
+                                            margin-bottom: 16px;
+                                            color: grey; ">
+                <option value="none" selected>Noodles</option>
+                <option value="male">Pizza</option>
+                <option value="female">Biryani</option>
+                <option value="transgender">KFC</option>
+                <option value="other">Chilli Chicken</option>
+                </select></font><br><br>
+
+
+                <font color="white">Extra Preferences<font color="red">*</font></font><br>
+                <textarea id="bio" rows="5" cols="50" name="bio" required></textarea><br>
+            </div>
+            <br><br>
+
+            <p style="font-size: 25px; color: white; font-family: Proxima Nova;">Contact Details</font><br>
+            <div id="container2">
+                <font color="white">E-mail Address <font color="red">*</font></font><br>
+                <input type="email" placeholder="E-mail" size="45" name="email" required><br><br>
+
+                <font color="white">Phone Number <font color="red">*</font></font><br>
+                <input type="text" placeholder="Phone Number" size="45" name="phone" required><br><br>
+
+                <font color="white">Address 1<font color="red">*</font></font><br>
+                <input type="text" placeholder="Address" size="45" name="city" required><br><br>
+
+                <font color="white">Landmark<font color="red">*</font></font><br>
+                <input type="text" placeholder="Landmark" size="45" name="school" required><br>
+            </div>
+
+            <br>
+        
+
+            <br>
+            <font color="white">I learned about this site from<font color="red">*</font></font><br>
+                <input type="text" size="45" name="learn" required><br><br>
+                <font color="white">I have read and agreed to the <a href="#"><u>Terms and Conditions</u></a><font color="red"> *</font></font>
+                <input type="checkbox" required style="position: relative; bottom: 25px; left: 110px;"> 
+                <br>
+                <center><input type="submit" value="Submit"></center><br>
+                <br>
+                </form>
+            </div>
+        </div>
+        
+    </main>
+    <footer class='row d-flex flex-column justify-content-center'>
+    </footer>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+    AOS.init({
+  // Global settings:
+  disable: false, // accepts following values: 'phone', 'tablet', 'mobile', boolean, expression or function
+  startEvent: 'DOMContentLoaded', // name of the event dispatched on the document, that AOS should initialize on
+  initClassName: 'aos-init', // class applied after initialization
+  animatedClassName: 'aos-animate', // class applied on animation
+  useClassNames: false, // if true, will add content of `data-aos` as classes on scroll
+  disableMutationObserver: false, // disables automatic mutations' detections (advanced)
+  debounceDelay: 50, // the delay on debounce used while resizing window (advanced)
+  throttleDelay: 99, // the delay on throttle used while scrolling the page (advanced)
+  
+
+  // Settings that can be overridden on per-element basis, by `data-aos-*` attributes:
+  offset: 120, // offset (in px) from the original trigger point
+  delay: 0, // values from 0 to 3000, with step 50ms
+  duration: 400, // values from 0 to 3000, with step 50ms
+  easing: 'ease', // default easing for AOS animations
+  once: false, // whether animation should happen only once - while scrolling down
+  mirror: false, // whether elements should animate out while scrolling past them
+  anchorPlacement: 'top-bottom', // defines which position of the element regarding to window should trigger the animation
+
+});
+  </script>
+</body>
+
+</html>
