@@ -292,7 +292,7 @@ th {
 /*TRACKS*/
 #trackbox{
     height: 200px;
-    width: 400px;
+    width: 110%;
     border: 2px solid black;
     border-radius: 4px;
     display: inline-block;
@@ -306,7 +306,7 @@ th {
 
 #trackbox:hover{
     height: 200px;
-    width: 400px;
+    width: 110%;
     border: 2px solid #1ca4b6;
     border-radius: 4px;
     display: inline-block;
