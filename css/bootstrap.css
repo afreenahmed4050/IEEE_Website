@@ -1,0 +1,51 @@
+* {
+    font-family: 'Proxima Nova';
+    font-size: 1.1rem;
+}
+
+.bg-dark {
+    background-color: #231F20 !important;
+}
+
+.btn-dark {
+    background-color: #1ca4b6;
+    color: #F0ECFF;
+    padding: .5rem 2rem;
+    border-radius: 2rem;
+    /* font-size: 1.5rem; */
+    font-family: 'Caviar Dreams';
+    font-weight: bold;
+    margin-bottom: 1rem;
+    border: 2px solid #1ca4b6;
+}
+
+.btn-dark:hover {
+    background-color: transparent;
+    color: #1ca4b6;
+    border: 2px solid #1ca4b6;
+
+}
+
+.btn-light {
+    background-color: #dafefe;
+    color: #231F20;
+    border-radius: 2rem;
+    padding: 0.5em 2rem;
+    border: 2px solid #dafefe;
+    margin: 1rem;
+    font-weight: bold;
+}
+
+.btn-light:hover {
+    color: #dafefe;
+    background-color: transparent;
+    border: 2px solid #dafefe;
+}
+
+.text-light {
+    color: #dafefe !important;
+}
+
+.text-light-2 {
+    color: #1ca4b6;
+}
