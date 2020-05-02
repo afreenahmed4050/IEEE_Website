@@ -7,6 +7,21 @@
     background-color: #231F20 !important;
 }
 
+.bg-dark1 {
+    background-color: #231F20;
+}
+
+.bg-dark1:hover {
+    background-color: #1ca4b6;
+    transition: all .4s ease;
+    -webkit-transition: all .4s ease;
+    cursor: pointer;
+}
+
+.bg-trans {
+    background-color: transparent;
+}
+
 .btn-dark {
     background-color: #1ca4b6;
     color: #F0ECFF;
