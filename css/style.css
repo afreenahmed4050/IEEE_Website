@@ -119,6 +119,20 @@ aside a:hover {
     color: #231F20;
 }
 
+/* ARTICLES PAGE */
+
+#blog {
+    background-color: rgba(255, 255, 255, 0.6);
+    padding: 20px 40px 30px 40px;
+    width: 80vw;
+    text-align: justify;
+}
+
+#blog img {
+    width: 30vw;
+    height: 40vh;
+}
+
 /* MAIN SECTION */
 html{
     scroll-behavior: smooth;
