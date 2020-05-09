@@ -12,7 +12,7 @@
 }
 
 .bg-dark1:hover {
-    background-color: #1ca4b6;
+    background-color: #40749c;
     transition: all .4s ease;
     -webkit-transition: all .4s ease;
     cursor: pointer;
@@ -23,7 +23,7 @@
 }
 
 .btn-dark {
-    background-color: #1ca4b6;
+    background-color: #40749c;
     color: #F0ECFF;
     padding: .5rem 2rem;
     border-radius: 2rem;
@@ -31,13 +31,13 @@
     font-family: 'Caviar Dreams';
     font-weight: bold;
     margin-bottom: 1rem;
-    border: 2px solid #1ca4b6;
+    border: 2px solid #40749c;
 }
 
 .btn-dark:hover {
     background-color: transparent;
-    color: #1ca4b6;
-    border: 2px solid #1ca4b6;
+    color: #40749c;
+    border: 2px solid #40749c;
 
 }
 
@@ -62,5 +62,5 @@
 }
 
 .text-light-2 {
-    color: #1ca4b6;
+    color: #40749c;
 }

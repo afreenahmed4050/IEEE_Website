@@ -73,7 +73,6 @@ nav .show {
     width: 200;
 }
 
-
 /* HOME PAGE ASIDE */
 aside h1 {
     letter-spacing: .8rem;
@@ -112,11 +111,11 @@ aside a:hover {
 
 /* ARTICLES PAGE */
 #blog {
-    background-color: rgba(255, 255, 255, 0.6);
+    background-color: rgba(255, 255, 255, 0.808);
     padding: 20px 40px 30px 40px;
     width: 80vw;
     text-align: justify;
-    border-radius: 2%;
+    border-radius: 1%;
 }
 
 #blog img {
@@ -128,6 +127,7 @@ aside a:hover {
 /* MAIN SECTION */
 html{
     scroll-behavior: smooth;
+    zoom: 94%;
 }
 
 body{
@@ -147,7 +147,7 @@ main a {
 
 main a:hover {
     text-decoration: none;
-    color: #1ca4b6;
+    color: #40749c;
 }
 
 main > div p {
@@ -220,7 +220,7 @@ th {
 
 /* FOOTER */
 footer {
-    background-color: #1ca4b6;
+    background-color: #40749c;
 }
 
 footer ul {
