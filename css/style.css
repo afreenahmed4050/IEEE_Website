@@ -132,12 +132,12 @@ html{
 
 body{
     background: #dafefe;
-    background: -webkit-linear-gradient(#bff3f9,#bff3f9);
+    background: -webkit-linear-gradient(#b1d5f4,#b1d5f4);
 }
 
 main {
 padding-bottom: 2rem;
-background: -webkit-linear-gradient(#bff3f9,#bff3f9);
+background: -webkit-linear-gradient(#b1d5f4,#b1d5f4);
 color: rgb(42, 46, 49);
 }
 
