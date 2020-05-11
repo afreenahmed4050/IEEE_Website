@@ -1,26 +1,43 @@
 <html>
   <head>
-    <link rel="stylesheet" href="test.css">
-    <?php include('test.php') ?>
-
+    <link rel="stylesheet" href="css/slider.css">
   </head>
-
   <body>
-    <ul class="likes">
-      <li class="likes__item likes__item--like">
-        <a href="#">
-          Like (0)
-        </a>
-      </li>
-      <li class="likes__item likes__item--dislike">
-        <a href="#">
-          Dislike (0)
-        </a>
-      </li>
-    </ul>
+    <section id="testimonials">
 
-    
+      <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div id="slidercon">
+              <table>
+                <tr>
+                  <th style="width: 320px; height:400px"><img src="images/headshots/hacker.png" height="100" width="100"></th>
+                  <th style="width:480px; height: 400px;">lmao add all i couldthink of</th>
+                </tr>
+              </table>
+            </div>
+          </div>
+      </div>
+        <div class="carousel-item">
+          <div id="slidercon">
+            <table>
+              <tr>
+                <th style="width: 320px; height:400px"><img src="images/headshots/hacker.png" height="100" width="100"></th>
+                <th style="width:480px; height: 400px;">lmao add all i couldthink of</th>
+              </tr>
+            </table>
+          </div>
+        </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </section>
   </body>
-
-
 </html>
